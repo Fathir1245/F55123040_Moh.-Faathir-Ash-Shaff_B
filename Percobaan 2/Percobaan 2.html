@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Percobaan 2 2</title>
+</head>
+<body>
+    <ul type="square">
+        <li>Laravel</li>
+        <li>Tailwind</li>
+        <li>React</li>
+    </ul>
+    <br>
+    <ol>
+        <li>Mas Amba</li>
+        <li>Ci Imut</li>
+        <li>Mas Rusdi</li>
+    </ol>
+    <br>
+    <table border="1">
+        <th>
+            <th>No</th>
+            <th>Nim</th>
+            <th>Nama</th>
+            <th>Prodi</th>
+        </th>
+        <tr>
+            <td>1</td>
+            <td>F55123040</td>
+            <td>Moh. Faathir Ash Shaff</td>
+            <td>S1-Teknik Informatika</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>F55123050</td>
+            <td>Aidil Ramadhan</td>
+            <td>S1-Teknik Informatika</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>F55123049</td>
+            <td>Yunus Leontino Mubarok</td>
+            <td>S1-Teknik Informatika</td>
+        </tr>
+    </table>
+    <br>
+    <table border="1">
+        <tr>
+            <th>No</th>
+            <th>Nim</th>
+            <th>Nama</th>
+            <th>Prodi</th>
+            <th>Praktikum</th>
+            <th colspan="5">Absen</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>F55123040</td>
+            <td>Moh. Faathir Ash Shaff</td>
+            <td>S1-Teknik Informatika</td>
+            <td rowspan="2">Pemrograman Web-1 kelas B</td>
+            <td>Hadir</td>
+            <td>Alpa</td>
+            <td>Hadir</td>
+            <td>Hadir</td>
+            <td>Hadir</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>F55123039</td>
+            <td>Amirul Maulana</td>
+            <td>S1-Teknik Informatika</td>
+            <td>Alpa</td>
+            <td>Hadir</td>
+            <td>Alpa</td>
+            <td>Hadir</td>
+            <td>Hadir</td>
+        </tr>
+    </table>
+    <br>
+    <table border="1" width="100%">
+        <tr>
+            <th height="40px">No</th>
+            <th>Nim</th>
+            <th width="40%">Nama</th>
+            <th>Prodi</th>
+            <th>Asdos</th>
+            <th colspan="5">Absen</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>F55123040</td>
+            <td>Moh. Faathir Ash Shaff</td>
+            <td>S1-Teknik Informatika</td>
+            <td rowspan="2">Pemrograman Web-1 kelas F</td>
+            <td>Hadir</td>
+            <td>Alpa</td>
+            <td>Hadir</td>
+            <td>Hadir</td>
+            <td>Hadir</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>F55123050</td>
+            <td>Aidil Ramadhan</td>
+            <td>S1-Teknik Informatika</td>
+            <td>Alpa</td>
+            <td>Hadir</td>
+            <td>Alpa</td>
+            <td>Hadir</td>
+            <td>Hadir</td>
+        </tr>
+    </table>
+    <br>
+    <form action="">
+        <label>Nama</label><br>
+        <input type="text" name="name" id="nama"><br>
+        <label>Email</label><br>
+        <input type="email" name="mail" id="mail"><br>
+        <label>Password</label><br>
+        <input type="password" name="pass" id="pass"><br>
+        <label>Jenis Kelamin</label><br>
+        <input type="radio" name="jk" id="jk" value="Laki Laki"> Laki Laki
+        <input type="radio" name="jk" id="jk" value="Perempuan"> Perempuan
+        <br>
+        <label>Matakuliah</label><br>
+        <input type="checkbox" name="mk" id="mk" value="Pemrograman Web 1"> Pemrograman Web 1
+        <input type="checkbox" name="mk" id="mk" value="RPL"> RPL
+        <input type="checkbox" name="mk" id="mk" value="Pemrograman Mobile"> Pemrograman Mobile
+        <input type="checkbox" name="mk" id="mk" value="Pemrograman Dasar"> Pemrograman Dasar
+        <br>
+        <label>Tanggal Lahir</label><br>
+        <input type="date" name="tglLahir" id="tglLahir"><br>
+        <label>Pilih Warna</label><br>
+        <input type="color" name="warna" id="warna"><br>
+        <label>Upload File</label><br>
+        <input type="file" name="file" id="file"><br>
+        <label>Qty</label><br>
+        <input type="number" name="qty" id="qty"><br>
+        <label>Ini Tersembunyi tapi ada</label><br>
+        <input type="hidden" name="hilang" id="hilang" value="Secret"><br>
+        <label>1 - 100</label><br>
+        <input type="range" name="range" id="range" value="100"><br>
+        <label>Tombol Submit</label><br>
+        <input type="submit" name="submit" id="submit"><br>
+        <label>Tombol Reset</label><br>
+        <input type="reset" name="reset" id="reset"><br>  
+    </form>
+    <br>
+    <label>Teks Area</label><br>
+    <textarea name="alamat" id="alamat" cols="30" rows="10"></textarea><br>
+    <br>
+    <label>Pilih Agama</label><br>
+    <select name="agama" id="agama">
+        <option value="">Pilih Agama</option>
+        <option value="Islam">Islam</option>
+        <option value="Kristen">Kristen</option>
+        <option value="Hindu">Hindu</option>
+        <option value="Katolik">Katolik</option>
+    </select>
+    <br>
+    <label>Pilih Siswa</label>
+    <br>
+    <input list="datasiswa" name="siswa" id="siswa">
+    <datalist id="datasiswa">
+        <option value="Van Persie">Aljandro Faraby</option>
+        <option value="Alexis Sanchez">Pablo Fadil</option>
+        <option value="Dani Alves">Hasby do Santos</option>
+        <option value="Zidane">Ricardo Halim</option>
+        <option value="Puyol">Arda Qiran</option>
+    </datalist>
+    <br>
+    <button>Ini Tombol</button>
+    <br><br>
+    <fieldset>
+        <legend>Pendaftaran</legend>
+        <label>Nama Lengkap</label><br>
+        <input type="text" name="n" id="n"><br>
+        <label>Umur</label><br>
+        <input type="number" name="u" id="u"><br>
+        <button>Daftar</button>
+    </fieldset>
+    <!-- Moh. Faathir Ash Shaff -->
+    <!-- F55123040 -->
+</body>
+</html>
